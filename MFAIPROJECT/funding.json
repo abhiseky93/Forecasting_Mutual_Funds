@@ -1,25 +1,61 @@
 {
-  "project_name": "FundGenius AI",
-  "website": "https://fundgeniusai.streamlit.app/",
-  "webpageUrl": "https://fundgeniusai.streamlit.app",
-  "description": "FundGenius AI is an intelligent mutual fund advisory tool powered by machine learning and real-time news sentiment analysis. It provides accurate BUY / HOLD / SELL recommendations based on future NAV predictions and current market sentiment. Designed for Indian investors, this tool simplifies investment decisions using AI.",
-  "founder": "Abhishek Ravikant Yadav",
-  "email": "abhiseky93@hotmail.com",
-  "funding_amount": 500000,
-  "currency": "INR",
-  "funding_stage": "Seed",
-  "funding_date": "2025-07-21",
-  "investors": [
-    "Self-funded"
+  "version": "v1.0.0",
+  "entity": {
+    "type": "individual",
+    "role": "owner",
+    "name": "Abhishek Ravikant Yadav",
+    "email": "abhiseky93@hotmail.com",
+    "phone": "",
+    "description": "Abhishek Ravikant Yadav is an AI developer who created FundGenius AI to help Indian investors make smarter mutual fund decisions using machine learning and sentiment analysis.",
+    "webpageUrl": {
+      "url": "https://fundgeniusai.streamlit.app"
+    }
+  },
+  "projects": [
+    {
+      "guid": "fundgenius-ai",
+      "name": "FundGenius AI",
+      "description": "FundGenius AI is an intelligent mutual fund advisory tool powered by machine learning and real-time news sentiment analysis. It provides accurate BUY / HOLD / SELL recommendations based on future NAV predictions and current market sentiment.",
+      "webpageUrl": {
+        "url": "https://fundgeniusai.streamlit.app"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/abhiseky93/fundgenius-ai"
+      },
+      "licenses": ["spdx:MIT"],
+      "tags": ["finance", "investment", "ai", "mutual-funds", "india", "streamlit", "machine-learning"]
+    }
   ],
-  "location": "India",
-  "tech_stack": [
-    "Python",
-    "Streamlit",
-    "Scikit-learn",
-    "Pandas",
-    "News API",
-    "Matplotlib"
-  ],
-  "ai_usage": "Uses machine learning to forecast mutual fund NAVs and applies sentiment analysis on financial news headlines to improve prediction accuracy and guide user recommendations."
+  "funding": {
+    "channels": [
+      {
+        "guid": "self-funded",
+        "type": "other",
+        "address": "Self-funded initiative",
+        "description": "Currently self-funded by the developer."
+      }
+    ],
+    "plans": [
+      {
+        "guid": "seed-plan",
+        "status": "active",
+        "name": "Seed Funding Plan",
+        "description": "Seeking ₹5,00,000 for platform scaling, API costs, and data infrastructure.",
+        "amount": 500000,
+        "currency": "INR",
+        "frequency": "one-time",
+        "channels": ["self-funded"]
+      }
+    ],
+    "history": [
+      {
+        "year": 2025,
+        "income": 0,
+        "expenses": 10000,
+        "taxes": 0,
+        "currency": "INR",
+        "description": "Initial self-funded expenses for app development and hosting."
+      }
+    ]
+  }
 }
