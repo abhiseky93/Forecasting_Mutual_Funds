@@ -20,10 +20,20 @@
         "url": "https://fundgeniusai.streamlit.app"
       },
       "repositoryUrl": {
-        "url": "https://github.com/abhiseky93/fundgenius-ai"
+        "url": "https://fundgeniusai.streamlit.app/funding.json"
       },
-      "licenses": ["spdx:MIT"],
-      "tags": ["finance", "investment", "ai", "mutual-funds", "india", "streamlit", "machine-learning"]
+      "licenses": [
+        "spdx:MIT"
+      ],
+      "tags": [
+        "finance",
+        "investment",
+        "ai",
+        "mutual-funds",
+        "india",
+        "streamlit",
+        "machine-learning"
+      ]
     }
   ],
   "funding": {
@@ -44,7 +54,9 @@
         "amount": 500000,
         "currency": "INR",
         "frequency": "one-time",
-        "channels": ["self-funded"]
+        "channels": [
+          "self-funded"
+        ]
       }
     ],
     "history": [
