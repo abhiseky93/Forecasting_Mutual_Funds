@@ -1,0 +1,24 @@
+{
+  "project_name": "FundGenius AI",
+  "website": "https://fundgeniusai.streamlit.app/",
+  "description": "FundGenius AI is an intelligent mutual fund advisory tool powered by machine learning and real-time news sentiment analysis. It provides accurate BUY / HOLD / SELL recommendations based on future NAV predictions and current market sentiment. Designed for Indian investors, this tool simplifies investment decisions using AI.",
+  "founder": "Abhishek Ravikant Yadav",
+  "email": "abhiseky93@hotmail.com",
+  "funding_amount": 500000,
+  "currency": "INR",
+  "funding_stage": "Seed",
+  "funding_date": "2025-07-21",
+  "investors": [
+    "Self-funded"
+  ],
+  "location": "India",
+  "tech_stack": [
+    "Python",
+    "Streamlit",
+    "Scikit-learn",
+    "Pandas",
+    "News API",
+    "Matplotlib"
+  ],
+  "ai_usage": "Uses machine learning to forecast mutual fund NAVs and applies sentiment analysis on financial news headlines to improve prediction accuracy and guide user recommendations."
+}
